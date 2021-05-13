@@ -17,7 +17,7 @@ We performed the following experiments during the course of the semester:
 4) We also tried a technique in which the previous styled output was used as the starting point for the next frame’s iteration. 
 
 ### Neural Style Transfer to Videos
-In this part, we extended the baseline to videos. We performed inference for every frame in the video. To know more about the experiments, run the ''.
+In this part, we extended the baseline to videos. We performed inference for every frame in the video. To know more about the experiments, run the 'video_Neural_Style_Transfer_with_Eager_Execution.ipynb'.
 
 ### Pre-Processing for Videos - Histogram Matching
 This was done using histogram matching since luminance style transfer didn't produce good results in the single frame outputs taken before midterm. This was performed by transforming the style image to reflect each content frame' color histogram before applying inference. By performing this operation for every frame, we ensured that there was a smoothness of color representation between frames - without distortion. The output was much better in terms of being representative of the actual content images' colors.
